@@ -1,1 +1,16 @@
-/*  your css code here. If applicable */
+nav {
+	background-color: #D3D3D3;
+	padding: 10px;
+	display: flex;
+	/* display: inline; */
+}
+
+nav>ul {
+    /* display: inline; */
+}
+
+nav>ul>a>li {
+    list-style: none;
+    display: inline;
+    margin-right: 1rem;
+}
